@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">دفترچه دیابت</string>
+    <string name="addBut">افزودن</string>
+    <string name="showBut">مشاهده</string>
+    <string name="reportBut">گزارش</string>
+    <string name="amountText">میزان قند</string>
+    <string name="dayText">روز</string>
+    <string name="conditionText">وضعیت</string>
+    <string name="dateText">تاریخ</string>
+    <string name="hour">ساعت</string>
+    <string name="drugTypeText">نوع دارو</string>
+    <string name="consumtionText">میزان مصرف</string>
+    <string name="foodText">تغذیه</string>
+    <string name="detailText">توضیحات</string>
+    <string name="Monday">دو شنبه</string>
+    <string name="Tuesday">سه شنبه</string>
+    <string name="Wednesday">چهار شنبه</string>
+    <string name="Thursday">پنج شنبه</string>
+    <string name="Friday">جمعه</string>
+    <string name="Saturday">شنبه</string>
+    <string name="Sunday">یک شنبه</string>
+    <string name="dateError">لطفا ابتدا تاریخ را مشخص نمائید</string>
+    <string name="information_registered">اطلاعات با موفقیت ثبت شد</string>
+    <string name="information_edited">اطلاعات با موفقیت ویرایش شد</string>
+    <string name="information_deleted">اطلاعات با موفقیت حذف شد</string>
+    <string name="futureVersion">این قسمت در آینده به برنامه اضافه می شود</string>
+
+    <string-array name="conditionArray">
+        <item>قبل از صبحانه</item>
+        <item>بعد از صبحانه</item>
+        <item>قبل از ناهار</item>
+        <item>بعد از ناهار</item>
+        <item>قبل از شام</item>
+        <item>بعد از شام</item>
+        <item>قبل از خواب</item>
+    </string-array>
+    <string-array name="drugTypeArray">
+        <item>انسولین</item>
+        <item>قرص</item>
+    </string-array>
+</resources>

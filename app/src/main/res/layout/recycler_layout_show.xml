@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recycler_layout_show"
+    android:paddingBottom="@dimen/dp6"
+    android:paddingTop="@dimen/dp6">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_show_guide_right"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.86"
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_show_guide_center_right"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.62"
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_show_guide_center_left"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.38"
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_show_guide_left"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.14"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_show_amount"
+        android:text="@string/amountText"
+        app:layout_constraintRight_toRightOf="@id/recycler_show_guide_right"
+        app:layout_constraintLeft_toLeftOf="@id/recycler_show_guide_right"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Texts"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_show_day"
+        android:text="@string/dayText"
+        app:layout_constraintRight_toRightOf="@id/recycler_show_guide_center_right"
+        app:layout_constraintLeft_toLeftOf="@id/recycler_show_guide_center_right"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Texts"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_show_condition"
+        android:text="@string/conditionText"
+        app:layout_constraintRight_toRightOf="@id/recycler_show_guide_center_left"
+        app:layout_constraintLeft_toLeftOf="@id/recycler_show_guide_center_left"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Texts"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_show_date"
+        android:text="@string/dateText"
+        app:layout_constraintRight_toRightOf="@id/recycler_show_guide_left"
+        app:layout_constraintLeft_toLeftOf="@id/recycler_show_guide_left"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Texts"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -178,6 +178,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/add_button_add"
         style="@style/mainButtons"
+        android:layout_alignParentLeft="true"
         android:background="@drawable/main_buttons"
         android:text="@string/addBut"
         android:layout_alignParentBottom="true"

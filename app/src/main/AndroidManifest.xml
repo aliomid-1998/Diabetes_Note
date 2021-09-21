@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:name=".MyApp.MyApplication"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".UI.Edit"></activity>
+        <activity android:name=".UI.Edit"
+            android:screenOrientation="portrait"></activity>
         <activity android:name=".UI.Show" />
-        <activity android:name=".UI.Add" />
-        <activity android:name=".UI.MainActivity">
+        <activity android:name=".UI.Add"
+            android:screenOrientation="portrait" />
+        <activity android:name=".UI.MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

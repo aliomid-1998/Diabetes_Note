@@ -3,9 +3,7 @@ package com.example.diabetesnote.UI;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.icu.text.IDNA;
 import android.os.Bundle;
-import android.telephony.mbms.MbmsErrors;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
